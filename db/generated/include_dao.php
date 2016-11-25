@@ -1,0 +1,53 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+ 	
+	require_once('class/dao/AccountDAO.class.php');
+	require_once('class/dto/Account.class.php');
+	require_once('class/mysql/AccountMySqlDAO.class.php');
+	require_once('class/mysql/ext/AccountMySqlExtDAO.class.php');
+	require_once('class/dao/AuthorDAO.class.php');
+	require_once('class/dto/Author.class.php');
+	require_once('class/mysql/AuthorMySqlDAO.class.php');
+	require_once('class/mysql/ext/AuthorMySqlExtDAO.class.php');
+	require_once('class/dao/CategoryDAO.class.php');
+	require_once('class/dto/Category.class.php');
+	require_once('class/mysql/CategoryMySqlDAO.class.php');
+	require_once('class/mysql/ext/CategoryMySqlExtDAO.class.php');
+	require_once('class/dao/CommentDAO.class.php');
+	require_once('class/dto/Comment.class.php');
+	require_once('class/mysql/CommentMySqlDAO.class.php');
+	require_once('class/mysql/ext/CommentMySqlExtDAO.class.php');
+	require_once('class/dao/DocumentDAO.class.php');
+	require_once('class/dto/Document.class.php');
+	require_once('class/mysql/DocumentMySqlDAO.class.php');
+	require_once('class/mysql/ext/DocumentMySqlExtDAO.class.php');
+	require_once('class/dao/GoodBadDAO.class.php');
+	require_once('class/dto/GoodBad.class.php');
+	require_once('class/mysql/GoodBadMySqlDAO.class.php');
+	require_once('class/mysql/ext/GoodBadMySqlExtDAO.class.php');
+	require_once('class/dao/GroupDocumentDAO.class.php');
+	require_once('class/dto/GroupDocument.class.php');
+	require_once('class/mysql/GroupDocumentMySqlDAO.class.php');
+	require_once('class/mysql/ext/GroupDocumentMySqlExtDAO.class.php');
+	require_once('class/dao/GroupMemberDAO.class.php');
+	require_once('class/dto/GroupMember.class.php');
+	require_once('class/mysql/GroupMemberMySqlDAO.class.php');
+	require_once('class/mysql/ext/GroupMemberMySqlExtDAO.class.php');
+	require_once('class/dao/GroupsDAO.class.php');
+	require_once('class/dto/Group.class.php');
+	require_once('class/mysql/GroupsMySqlDAO.class.php');
+	require_once('class/mysql/ext/GroupsMySqlExtDAO.class.php');
+	require_once('class/dao/InnerCommentDAO.class.php');
+	require_once('class/dto/InnerComment.class.php');
+	require_once('class/mysql/InnerCommentMySqlDAO.class.php');
+	require_once('class/mysql/ext/InnerCommentMySqlExtDAO.class.php');
+
+?>
